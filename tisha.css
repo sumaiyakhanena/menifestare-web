@@ -1,0 +1,81 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+ }
+ /* section-5 */
+ .hero5{
+background: #151515;
+ }
+ .container{
+    width: 90%;
+    margin: 0 auto;
+
+ }
+ .half-width{
+margin: 20px;
+padding:20px; 
+font-weight: 70;
+font-size: 20px;
+color: rgba(255, 255, 255, 0.9);
+line-height: 40px;
+ }
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-fixed {
+    float: right;
+   
+}
+
+ .color{
+    color: #C57E50;;
+ }
+ /* flexpart */
+ .row{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.flex-col{
+    background: #FFFFFF;
+    border-radius: 14px;
+    flex: 1;
+    padding:30px;  
+margin: 20px;
+box-sizing: border-box;
+    overflow: hidden;
+}
+.flex-col h3{
+    text-align: center;
+    color: #C57E50;
+}
+.flex-col p{
+    color: rgba(34, 34, 34, 0.5);
+    font-weight: 500;
+    font-size: 18px;
+}
+/* section 6 starts */
+.head{
+    text-align: center;
+    font-size: 22px;
+  
+}
+.card{
+    display: flex;
+}
+.col-1{
+    background-color: #FFFFFF;
+    border: 1.56574px solid #E7E7E7;
+    border-radius: 23.4861px;
+    position: absolute;
+    width: 446.24px;
+    height: 542.53px;
+}
+.col-1 h5{
+    text-align: center;
+    
+}
